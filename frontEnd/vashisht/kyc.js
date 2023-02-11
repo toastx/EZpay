@@ -1,0 +1,12 @@
+var userInput1;
+console.log("User input: " + userInput1);
+var userInput2;
+console.log("User input: " + userInput2);
+var userInput3;
+console.log("User input: " + userInput3);
+var userInput4;
+console.log("User input: " + userInput4);
+var userInput5;
+console.log("User input: " + userInput5);
+var userInput6;
+console.log("User input: " + userInput6);

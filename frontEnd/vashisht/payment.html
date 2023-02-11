@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/220d50c31a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/ezpay/frontEnd/vashisht/payment.js"></script>
+  </head>
+  <body>
+    <div class="taskbar">
+      <div class="home">
+        <a href="homepage.html">
+          <i class="fa-solid fa-house"></i>
+        </a>
+      </div>
+
+      <div class="payments">
+        <a href="/ezpay/frontEnd/vashisht/payment.html">&nbsp;Payment</a>
+      </div>
+      <div class="kyc">
+        <a href="/ezpay/frontEnd/vashisht/kyc.html">&nbsp;KYC</a>
+      </div>
+    </div>
+    <h1>Transfer Cryptocurrencies with ease</h1>
+    <div class="container">
+      <div class="container1">
+        <h2>Receiver's Address</h2>
+        <input type="text" id="userInput1" placeholder="Enter Address" />
+        <h2>Currency</h2>
+        <div class="select" style="width: 270px">
+          <select name="select">
+            <option value="a">Bitcoin</option>
+            <option value="b">Binance</option>
+            <option value="c">Solana</option>
+            <option value="d">Ethereum</option>
+          </select>
+        </div>
+        <h2>Amount</h2>
+        <input type="number" id="userInput2" placeholder="Enter amount" />
+        <button id="submitButton">Send</button>
+      </div>
+      <div class="container2">
+        <div class="container3">
+          <h4>Price</h4>
+          <h5>Price</h5>
+        </div>
+        <div class="container4">
+          <input type="text1" id="userInput1" placeholder="Enter Amount" />
+          <input type="text1" id="userInput1" placeholder="Equival. Amount" />
+        </div>
+        <div class="container3">
+          <h6>Currency</h6>
+          <h7>Currency</h7>
+        </div>
+
+        <div class="container5">
+          <div class="select1" style="width: 270px">
+            <select name="select1">
+              <option value="a">Bitcoin</option>
+              <option value="b">Binance</option>
+              <option value="c">Solana</option>
+              <option value="d">Ethereum</option>
+            </select>
+          </div>
+
+          <div class="select2" style="width: 270px">
+            <select name="select2">
+              <option value="a">Bitcoin</option>
+              <option value="b">Binance</option>
+              <option value="c">Solana</option>
+              <option value="d">Ethereum</option>
+            </select>
+          </div>
+        </div>
+        <button id="submitButton">Convert</button>
+      </div>
+    </div>
+
+    <div class="endbar">
+      <h3>EZ Pay</h3>
+    </div>
+  </body>
+</html>
