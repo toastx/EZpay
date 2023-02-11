@@ -1,5 +1,10 @@
 # ezpay
+---
 
-This project was created by Seahorse 0.2.7.
+## Scripts
 
-To get started, just add your code to **programs_py/ezpay.py** and run `seahorse build`.
+See all the backend and crypto transfer instructions
+
+## frontEnd
+
+See our website for payments and kyc
