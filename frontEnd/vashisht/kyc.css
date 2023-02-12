@@ -3,16 +3,17 @@
     padding: 0;       
 }
 body{
-    
+    color: #fff;
+    background-color: #101623;
     /* position: relative; */
-    background-color: #f2f2fe;
+    /* background-color: #f2f2fe; */
     font-family: 'Poppins', sans-serif;   
 }
 .taskbar{
     display: inline-flex;
     height: 60px;
     width: 100%;
-    background-color: black;    
+    background-color: #2d3446;   
     position: fixed;
     top: 0;
 }
@@ -29,17 +30,17 @@ body{
     margin-left: 20px;
     margin-top: 7.5px;
 
-    background-color: #fff;
+    
     background-size: 100% 200%;
     background-position: 0% 0%;
-    background-image: linear-gradient(black 50% ,#fff 50%);
+    background-image: linear-gradient( #2d3446 50% ,#fff 50%);
     transition: background-position 0.5s ,color 0.5s;
 
 }
 .home a:hover{
     
     background-position: 0% 100%;
-    color: black;
+    color:  #2d3446;
 } 
 
 .payments a{
@@ -56,11 +57,7 @@ body{
     margin-left: 1200px;
     margin-top: 15px; 
     
-    background-color: #fff;
-    background-size: 400% 200%;
-    background-position: 0% 0%;
-    background-image: linear-gradient(black 50% ,#fff 50%);
-    transition: background-position 0.5s ,color 0.5s;
+    
 }
 .kyc a{
     display: inline-flex;
@@ -76,11 +73,6 @@ body{
     margin-left: 50px;
     margin-top: 15px; 
     
-    background-color: #fff;
-    background-size: 400% 200%;
-    background-position: 0% 0%;
-    background-image: linear-gradient(black 50% ,#fff 50%);
-    transition: background-position 0.5s ,color 0.5s;
 }
 img{
     width: 300px;
@@ -131,11 +123,13 @@ h1{
     justify-content: center;
     height: 60px;
     width: 100%;
-    background-color: black;    
+    background-color:  #2d3446;    
     color: #fff;
     bottom: 0;
 }
 input[type=text]{
+    color: #fff;
+    background-color: #2d3446;
     width:270px;
     border: 2px solid black;
     height: 40px;
@@ -151,6 +145,8 @@ input[type=text]:focus{
     box-shadow: 0 0 8px dodgerblue;
 }
 input[type=date]{
+    color: #fff;
+    background-color: #2d3446;
     width:270px;
     border: 2px solid black;
     height: 40px;
@@ -166,7 +162,8 @@ input[type=text]:focus{
     box-shadow: 0 0 8px dodgerblue;
 }
 select{
-    
+    color: #fff;
+    background-color: #2d3446;
     width:270px;
     border: 2px solid black;
     height: 40px;
